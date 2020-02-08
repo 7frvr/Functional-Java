@@ -11,6 +11,7 @@ public class _Consumer {
 
         // Consumer Functional interface
         greetCustomerConsumer.accept(amraa);
+        System.out.println("it's very nice");
     }
 
     static void greetCustomer(Customer customer){
